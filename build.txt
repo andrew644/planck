@@ -1,0 +1,1 @@
+docker run --rm -it -w /qmk_firmware -v "C:\phome\qmk_firmware:/qmk_firmware" -e ALT_GET_KEYBOARDS=true qmkfm/base_container make planck/rev4:andrew644
